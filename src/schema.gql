@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Company {
+  id: Int!
+  codeCvm: String!
+  codeTrade: String!
+  cnpj: String!
+  nameTrade: String!
+}
+
+type Query {
+  getCompanies: [Company!]!
+}
